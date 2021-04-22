@@ -13,9 +13,9 @@
     "clean": "rimraf lib",
     "test": "jest --watchAll",
     "test:ci": "jest --watchAll=false --coverage",
-    "types": "tsc -p tsconfig.json",
     "build:esm": "cross-env BABEL_ENV=esm babel src --extensions '.ts' --out-dir 'lib/esm' --source-maps",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --extensions '.ts' --out-dir 'lib/cjs' --source-maps",
+    "types": "tsc -p tsconfig.json",
     "build": "npm run clean && npm run build:esm && npm run build:cjs && npm run types"
   },
   "repository": {
