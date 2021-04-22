@@ -1,0 +1,16 @@
+{
+  "name": "summer-check",
+  "version": "0.1.0",
+  "description": "Simple set of functions for checking is it summer or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "summer",
+    "fun",
+    "check"
+  ],
+  "author": "Stanislav Dolgachov",
+  "license": "MIT"
+}
