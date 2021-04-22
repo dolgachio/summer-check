@@ -14,8 +14,8 @@ Usage
 ```
 import { isItSummer } from 'summer-check';
 
-isItSummer(new Date(2021, 06, 01)); // 'Yes! ☀️'
-getLetterColName(new Date(2021, 03, 01)); // 'No.. 😞'
+isItSummer(new Date(2021, 06, 01)); // 'Yes!☀️'
+isItSummer(new Date(2021, 03, 01)); // 'No...😞'
 
 ```
 
