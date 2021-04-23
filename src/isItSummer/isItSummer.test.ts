@@ -32,4 +32,8 @@ describe('isItSummer', () => {
 
         expect(sut(checkDate)).toEqual(noAnswer);
     });
+
+    it('should fail', () => {
+        expect(true).toBe(false);        
+    })
 });
